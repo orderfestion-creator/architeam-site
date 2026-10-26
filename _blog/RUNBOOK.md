@@ -14,6 +14,9 @@ Architeam is a separate brand from varimo.me (metal fabrication) and leustech.me
 4. The site has no Astro source in this repo: these HTML files ARE the site. Do not edit generated blog pages by hand; site-wide changes are made carefully in the HTML files.
 
 ## Steps for a run
+0. **Photo inbox first.** If `_blog/photos-inbox/` contains photos (anything except README.md): for each one, LOOK at it (Read tool), then run
+   `python3 _blog/photos.py <file> <descriptive-slug> "<what the photo really shows>"` (install Pillow / pillow-heif with pip if missing). Output goes to `/img/blog/` and is described in `_blog/PHOTOS.md`.
+   Slug in latin, describing the object (e.g. `idejno-rjesenje-vila-render`), never a client name or address. Skip photos with faces, readable house numbers or car plates — leave them and mention them in the report. Commit converted files with the article.
 1. Read `_blog/KEYWORDS.md` and `_blog/LOG.md`. Determine the language from the rotation (number of rows in LOG). ME → first `todo` cluster in section C; RU/EN → first `todo` topic in that language's list in section D. Never write about section A phrases (they belong to service/city pages) or section B (needs owner confirmation).
 2. Read the target service page(s) on the site (e.g. `projekat-kuce/index.html`, `cijene/index.html`, `dozvola-za-gradnju-crna-gora/index.html`; RU/EN counterparts from the page map) so the article agrees with what the site says about services, process, prices and deadlines.
 3. Research the topic with WebSearch (in the article's language and in ME/BS/HR/SR): what people ask, what competitors answer, what is missing. Find the natural search phrase for RU/EN. Use research for gaps and wording, never copy.
@@ -53,7 +56,9 @@ Sources checked 2026-10-26: "Creating helpful, reliable, people-first content" (
 - Authorship: published as Architeam (organization). Never invent people, credentials, licences, projects, clients, reviews or statistics.
 
 ## Article rules
-- Body HTML allowed: h2, h3, p, strong, em, a, ul, ol, li, `<div class="table-wrap"><table>…</table></div>`, `<div class="blog-note"><p>…</p></div>`. No images (the site has no photo library; the design is drawn graphics) — use tables, lists and notes for structure.
+- Body HTML allowed: h2, h3, p, strong, em, a, ul, ol, li, `<div class="table-wrap"><table>…</table></div>`, `<div class="blog-note"><p>…</p></div>`, and figures.
+- Images: only Architeam's own photos/renders/drawings listed in `_blog/PHOTOS.md` (files in `/img/blog/`). Use one or two when they truly match the topic; none is fine. Never stock or external images. Markup:
+  `<figure><img src="/img/blog/<slug>.webp" srcset="/img/blog/<slug>-600.webp 600w, /img/blog/<slug>.webp 1600w" sizes="(max-width:900px) 100vw, 70ch" width="W" height="H" alt="accurate description" loading="lazy" decoding="async"><figcaption>…</figcaption></figure>` (W×H from PHOTOS.md). Do not reuse the same photo in consecutive articles. The build fails on missing files or empty alt.
 - ME: ijekavica, "vi". RU: «вы», терминология Черногории с пояснением (idejno rješenje — эскизный проект, glavni projekat — основной проект, UTU — градостроительно-технические условия). EN: explain local terms in brackets (idejno rješenje — concept design).
 - Set META "service" to the cluster's main service page in the article's language.
 - Contacts are in the template (Viber, WhatsApp, contact page); don't paste phone numbers into the body.

@@ -96,6 +96,9 @@ BLOG_CSS = """
 .blog-card b{font:700 1.3rem/1.15 var(--cond)}
 .blog-card span{color:var(--slate);font-size:.95rem}
 .blog-card em{font-style:normal;font-weight:600;color:var(--focus)}
+.blog-body figure{margin:8px 0 24px;border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;background:var(--card)}
+.blog-body figure img{display:block;width:100%;height:auto}
+.blog-body figcaption{font:500 .8rem/1.4 var(--mono);color:var(--slate);padding:10px 14px}
 .blog-links{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
 .blog-links a{display:inline-block;padding:8px 14px;border:1px solid var(--rule);border-radius:99px;background:var(--card);text-decoration:none;color:var(--ink);font-size:.95rem}
 .blog-links a:hover{border-color:var(--prussian-2)}
@@ -367,6 +370,12 @@ def check(posts):
             for href in re.findall(r'href="(/[^"#?]*)', blob):
                 if href not in known:
                     problems.append(f"{f}: internal link {href} does not exist")
+            for src in re.findall(r'src="(/[^"]+)"', p["body"]) + [x.split()[0] for ss in re.findall(r'srcset="([^"]+)"', p["body"]) for x in ss.split(",")]:
+                if not os.path.exists(os.path.join(ROOT, src.strip().lstrip("/"))):
+                    problems.append(f"{f}: image {src.strip()} not found")
+            for img in re.findall(r"<img\b[^>]*>", p["body"]):
+                if 'alt="' not in img or 'alt=""' in img:
+                    problems.append(f"{f}: image without alt text")
             if re.search(r"&lt;\w", p["body"]):
                 problems.append(f"{f}: escaped HTML in body")
             if not 110 <= len(p["description"]) <= 170:
