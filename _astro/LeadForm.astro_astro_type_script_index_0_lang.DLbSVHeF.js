@@ -1,0 +1,1 @@
+import{t as e}from"./forms.Mc2qBOzs.js";document.querySelectorAll(`[data-lead-form]`).forEach(t=>e(t));
