@@ -1,0 +1,49 @@
+name: Deploy to Sprinthost
+
+# Every push to main uploads changed files to architeam.me over FTP.
+# send.php (Telegram bot token) is NOT in the repo and is never uploaded or deleted: it stays only on the server.
+# Password lives in the repository Secret FTP_PASSWORD (Settings -> Secrets and variables -> Actions).
+# Server and login are the Sprinthost values below (repository Variables FTP_SERVER / FTP_USERNAME override them if ever needed).
+# Optional repository Variable FTP_SERVER_DIR (default: domains/architeam.me/public_html/)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build blog and validate
+        run: python3 _blog/build.py --check
+
+      - name: Fail if build changed committed files
+        run: |
+          if ! git diff --quiet; then
+            echo "::error::Generated files are out of date. Run python3 _blog/build.py and commit."
+            git --no-pager diff --stat
+            exit 1
+          fi
+
+      - name: Upload to Sprinthost
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ vars.FTP_SERVER || '141.8.192.36' }}
+          username: ${{ vars.FTP_USERNAME || 'a0792741' }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ vars.FTP_SERVER_DIR || 'domains/architeam.me/public_html/' }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            _blog/**
+            README.md
+            send.php
