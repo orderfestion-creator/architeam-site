@@ -76,7 +76,7 @@ Format: **primary** — secondary → main service page · status
 
 ### Wave 1 — buying intent
 1. **projekat kuće cijena** — koliko košta projekat kuće, cijena projektovanja kuće, projektovanje kuće cijena, arhitektonski projekat cijena, cijena arhitektonskog projekta → /projekat-kuce/, /cijene/ · done 2026-10-26 /blog/projekat-kuce-cijena/
-2. **projekat za građevinsku dozvolu** — dokumentacija za građevinsku dozvolu, projektovanje za građevinsku dozvolu, projekat kuće za građevinsku dozvolu → /dozvola-za-gradnju-crna-gora/ · todo
+2. **projekat za građevinsku dozvolu** — dokumentacija za građevinsku dozvolu, projektovanje za građevinsku dozvolu, projekat kuće za građevinsku dozvolu → /dozvola-za-gradnju-crna-gora/ · done 2026-10-27 /blog/projekat-za-gradjevinsku-dozvolu/
 3. **idejno rješenje kuće** — idejni projekat kuće, idejno arhitektonsko rješenje, idejni projekat, izrada idejnog projekta → /idejno-rjesenje/ · todo
 4. **glavni projekat kuće** — glavni projekat objekta, glavni projekat zgrade, glavni projekat za izgradnju, kompletan projekat kuće, građevinski projekat kuće → /glavni-projekat/ · todo
 5. **legalizacija objekta cijena** — dokumentacija za legalizaciju, projekat za legalizaciju, tehnički crteži za legalizaciju → /legalizacija-objekta/ · todo
