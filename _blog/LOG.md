@@ -6,4 +6,4 @@ The number of rows decides the next language (pattern ME, ME, RU, ME, ME, EN —
 | # | Date | Lang | URL | Main keyword | Status |
 |---|------|------|-----|--------------|--------|
 | 1 | 2026-10-26 | ME | /blog/projekat-kuce-cijena/ | projekat kuće cijena | live |
-| 2 | 2026-10-27 | ME | /blog/projekat-za-gradjevinsku-dozvolu/ | projekat za građevinsku dozvolu | not live |
+| 2 | 2026-10-27 | ME | /blog/projekat-za-gradjevinsku-dozvolu/ | projekat za građevinsku dozvolu | live |
