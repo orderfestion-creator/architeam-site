@@ -156,7 +156,7 @@ Format: **primary** — secondary → main service page · status
 Audience: foreigners who buy land or property in Montenegro. Research the natural phrase in that language before writing (it goes into title/H1/slug/keyword). Link only to pages of the same language (see the page map).
 
 RU
-1. **сколько стоит проект дома в Черногории** → /ru/proekt-chastnogo-doma/, /ru/ceny/ · todo
+1. **сколько стоит проект дома в Черногории** → /ru/proekt-chastnogo-doma/, /ru/ceny/ · done 2026-10-29 /ru/blog/skolko-stoit-proekt-doma-v-chernogorii/
 2. **разрешение на строительство в Черногории для иностранца** → /ru/razreshenie-na-stroitelstvo-chernogoriya/ · todo
 3. **легализация дома в Черногории** → /ru/legalizaciya-doma-chernogoriya/ · todo
 4. **что проверить перед покупкой участка в Черногории** (UTU, план, индексы) → /ru/razreshenie-na-stroitelstvo-chernogoriya/ · todo
