@@ -9,4 +9,4 @@ The number of rows decides the next language (pattern ME, ME, RU, ME, ME, EN —
 | 2 | 2026-10-27 | ME | /blog/projekat-za-gradjevinsku-dozvolu/ | projekat za građevinsku dozvolu | live |
 | 3 | 2026-10-29 | RU | /ru/blog/skolko-stoit-proekt-doma-v-chernogorii/ | сколько стоит проект дома в Черногории | live |
 | 4 | 2026-10-29 | ME | /blog/idejno-rjesenje-kuce/ | idejno rješenje kuće | live |
-| 5 | 2026-10-31 | ME | /blog/glavni-projekat-kuce/ | glavni projekat kuće | not live |
+| 5 | 2026-10-31 | ME | /blog/glavni-projekat-kuce/ | glavni projekat kuće | live |
