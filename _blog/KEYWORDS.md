@@ -168,7 +168,7 @@ RU
 10. **обмеры здания и проект существующего состояния** → /ru/obmery-zdaniya/ · todo
 
 EN
-1. **house design cost in Montenegro** → /en/house-plans-montenegro/, /en/prices/ · todo
+1. **house design cost in Montenegro** → /en/house-plans-montenegro/, /en/prices/ · done 2026-11-03 /en/blog/house-design-cost-montenegro/
 2. **building permit in Montenegro for foreigners** → /en/building-permit-montenegro/ · todo
 3. **legalisation of a house in Montenegro** → /en/legalisation-montenegro/ · todo
 4. **buying land in Montenegro: what to check before you build** → /en/building-permit-montenegro/ · todo
