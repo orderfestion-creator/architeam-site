@@ -79,7 +79,7 @@ Format: **primary** — secondary → main service page · status
 2. **projekat za građevinsku dozvolu** — dokumentacija za građevinsku dozvolu, projektovanje za građevinsku dozvolu, projekat kuće za građevinsku dozvolu → /dozvola-za-gradnju-crna-gora/ · done 2026-10-27 /blog/projekat-za-gradjevinsku-dozvolu/
 3. **idejno rješenje kuće** — idejni projekat kuće, idejno arhitektonsko rješenje, idejni projekat, izrada idejnog projekta → /idejno-rjesenje/ · done 2026-10-29 /blog/idejno-rjesenje-kuce/
 4. **glavni projekat kuće** — glavni projekat objekta, glavni projekat zgrade, glavni projekat za izgradnju, kompletan projekat kuće, građevinski projekat kuće → /glavni-projekat/ · done 2026-10-31 /blog/glavni-projekat-kuce/
-5. **legalizacija objekta cijena** — dokumentacija za legalizaciju, projekat za legalizaciju, tehnički crteži za legalizaciju → /legalizacija-objekta/ · todo
+5. **legalizacija objekta cijena** — dokumentacija za legalizaciju, projekat za legalizaciju, tehnički crteži za legalizaciju → /legalizacija-objekta/ · done 2026-11-05 /blog/legalizacija-objekta-cijena/
 6. **projekat kuće na kosom terenu** → /projekat-kuce/, /projekat-potpornog-zida/ · todo
 7. **projekat vile sa bazenom** — projekat kuće sa bazenom, projekat luksuzne vile, projekat moderne vile, arhitektonski projekat vile → /projekat-vile/ · todo
 8. **statički proračun kuće** — statički proračun objekta, proračun nosivosti konstrukcije → /staticki-proracun-konstrukcija/ · todo
