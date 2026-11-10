@@ -157,7 +157,7 @@ Audience: foreigners who buy land or property in Montenegro. Research the natura
 
 RU
 1. **сколько стоит проект дома в Черногории** → /ru/proekt-chastnogo-doma/, /ru/ceny/ · done 2026-10-29 /ru/blog/skolko-stoit-proekt-doma-v-chernogorii/
-2. **разрешение на строительство в Черногории для иностранца** → /ru/razreshenie-na-stroitelstvo-chernogoriya/ · todo
+2. **разрешение на строительство в Черногории для иностранца** → /ru/razreshenie-na-stroitelstvo-chernogoriya/ · done 2026-11-10 /ru/blog/razreshenie-na-stroitelstvo-v-chernogorii-dlya-inostrantsa/
 3. **легализация дома в Черногории** → /ru/legalizaciya-doma-chernogoriya/ · todo
 4. **что проверить перед покупкой участка в Черногории** (UTU, план, индексы) → /ru/razreshenie-na-stroitelstvo-chernogoriya/ · todo
 5. **проект виллы с бассейном в Черногории** → /ru/proekt-villy-chernogoriya/ · todo
