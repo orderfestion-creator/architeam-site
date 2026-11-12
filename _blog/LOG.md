@@ -14,3 +14,4 @@ The number of rows decides the next language (pattern ME, ME, RU, ME, ME, EN —
 | 7 | 2026-11-05 | ME | /blog/legalizacija-objekta-cijena/ | legalizacija objekta cijena | live |
 | 8 | 2026-11-07 | ME | /blog/projekat-kuce-na-kosom-terenu/ | projekat kuće na kosom terenu | live |
 | 9 | 2026-11-10 | RU | /ru/blog/razreshenie-na-stroitelstvo-v-chernogorii-dlya-inostrantsa/ | разрешение на строительство в Черногории для иностранца | live |
+| 10 | 2026-11-12 | ME | /blog/projekat-vile-sa-bazenom/ | projekat vile sa bazenom | not live |

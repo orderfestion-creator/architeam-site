@@ -81,7 +81,7 @@ Format: **primary** — secondary → main service page · status
 4. **glavni projekat kuće** — glavni projekat objekta, glavni projekat zgrade, glavni projekat za izgradnju, kompletan projekat kuće, građevinski projekat kuće → /glavni-projekat/ · done 2026-10-31 /blog/glavni-projekat-kuce/
 5. **legalizacija objekta cijena** — dokumentacija za legalizaciju, projekat za legalizaciju, tehnički crteži za legalizaciju → /legalizacija-objekta/ · done 2026-11-05 /blog/legalizacija-objekta-cijena/
 6. **projekat kuće na kosom terenu** → /projekat-kuce/, /projekat-potpornog-zida/ · done 2026-11-07 /blog/projekat-kuce-na-kosom-terenu/
-7. **projekat vile sa bazenom** — projekat kuće sa bazenom, projekat luksuzne vile, projekat moderne vile, arhitektonski projekat vile → /projekat-vile/ · todo
+7. **projekat vile sa bazenom** — projekat kuće sa bazenom, projekat luksuzne vile, projekat moderne vile, arhitektonski projekat vile → /projekat-vile/ · done 2026-11-12 /blog/projekat-vile-sa-bazenom/
 8. **statički proračun kuće** — statički proračun objekta, proračun nosivosti konstrukcije → /staticki-proracun-konstrukcija/ · todo
 9. **projekat nadogradnje kuće** — projektovanje nadogradnje, projekat dogradnje kuće → /rekonstrukcija-nadogradnja/ · todo
 10. **projekat apartmanske zgrade** angle: maximizing usable area within the plan — projekat stambene zgrade, projektovanje stambenih zgrada → /projekat-apartmanske-zgrade/ · todo
@@ -97,7 +97,7 @@ Format: **primary** — secondary → main service page · status
 18. **projekat moderne kuće** — savremena arhitektura, arhitektonska rješenja → /projekat-kuce/ · todo
 19. **individualni projekat kuće** — projektovanje po mjeri, tipski projekat vs individualni → /projekat-kuce/ · todo
 20. **projekat kuće na placu** angle: checking the plot and UTU before buying — arhitekta za projektovanje kuće → /dozvola-za-gradnju-crna-gora/ · todo
-21. **idejno rješenje vile** — glavni projekat vile → /projekat-vile/ · todo
+21. **idejno rješenje vile** — glavni projekat vile → /projekat-vile/ · done 2026-11-12 /blog/projekat-vile-sa-bazenom/
 22. **arhitektonski studio za investitore** angle: apartments for sale/rent — projektovanje stambeno poslovnih objekata, projekat stambeno poslovne zgrade → /projekat-apartmanske-zgrade/ · todo
 23. **3D vizualizacija kuće** — 3D render kuće, 3D render vile, arhitektonska vizualizacija, vizualizacija eksterijera → /arhitektonsko-projektovanje/ · todo
 24. **projektovanje i dizajn** angle: architect vs designer vs engineer — arhitekta za adaptaciju → /arhitektonsko-projektovanje/ · todo
