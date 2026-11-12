@@ -97,7 +97,7 @@ Format: **primary** — secondary → main service page · status
 18. **projekat moderne kuće** — savremena arhitektura, arhitektonska rješenja → /projekat-kuce/ · todo
 19. **individualni projekat kuće** — projektovanje po mjeri, tipski projekat vs individualni → /projekat-kuce/ · todo
 20. **projekat kuće na placu** angle: checking the plot and UTU before buying — arhitekta za projektovanje kuće → /dozvola-za-gradnju-crna-gora/ · todo
-21. **idejno rješenje vile** — glavni projekat vile → /projekat-vile/ · done 2026-11-12 /blog/projekat-vile-sa-bazenom/
+21. **idejno rješenje vile** — glavni projekat vile → /projekat-vile/ · todo
 22. **arhitektonski studio za investitore** angle: apartments for sale/rent — projektovanje stambeno poslovnih objekata, projekat stambeno poslovne zgrade → /projekat-apartmanske-zgrade/ · todo
 23. **3D vizualizacija kuće** — 3D render kuće, 3D render vile, arhitektonska vizualizacija, vizualizacija eksterijera → /arhitektonsko-projektovanje/ · todo
 24. **projektovanje i dizajn** angle: architect vs designer vs engineer — arhitekta za adaptaciju → /arhitektonsko-projektovanje/ · todo
