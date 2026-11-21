@@ -84,7 +84,7 @@ Format: **primary** — secondary → main service page · status
 7. **projekat vile sa bazenom** — projekat kuće sa bazenom, projekat luksuzne vile, projekat moderne vile, arhitektonski projekat vile → /projekat-vile/ · done 2026-11-12 /blog/projekat-vile-sa-bazenom/
 8. **statički proračun kuće** — statički proračun objekta, proračun nosivosti konstrukcije → /staticki-proracun-konstrukcija/ · done 2026-11-14 /blog/staticki-proracun-kuce/
 9. **projekat nadogradnje kuće** — projektovanje nadogradnje, projekat dogradnje kuće → /rekonstrukcija-nadogradnja/ · done 2026-11-19 /blog/projekat-nadogradnje-kuce/
-10. **projekat apartmanske zgrade** angle: maximizing usable area within the plan — projekat stambene zgrade, projektovanje stambenih zgrada → /projekat-apartmanske-zgrade/ · todo
+10. **projekat apartmanske zgrade** angle: maximizing usable area within the plan — projekat stambene zgrade, projektovanje stambenih zgrada → /projekat-apartmanske-zgrade/ · done 2026-11-21 /blog/projekat-apartmanske-zgrade/
 11. **projekat nadstrešnice za auto** — projekat metalne nadstrešnice, projekat nadstrešnice za dva auta, crtež nadstrešnice, nacrt metalne nadstrešnice, proračun nadstrešnice → /projekat-nadstresnice/ · todo
 12. **snimak postojećeg stanja** angle: when you need it (sale, adaptation, legalisation, upis) — crteži postojećeg stanja, projekat postojećeg stanja, nacrt postojećeg objekta, dokumentacija za upis objekta → /elaborat-postojeceg-stanja/ · todo
 

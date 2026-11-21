@@ -18,3 +18,4 @@ The number of rows decides the next language (pattern ME, ME, RU, ME, ME, EN —
 | 11 | 2026-11-14 | ME | /blog/staticki-proracun-kuce/ | statički proračun kuće | live |
 | 12 | 2026-11-17 | EN | /en/blog/building-permit-montenegro-for-foreigners/ | building permit in Montenegro for foreigners | live |
 | 13 | 2026-11-19 | ME | /blog/projekat-nadogradnje-kuce/ | projekat nadogradnje kuće | live |
+| 14 | 2026-11-21 | ME | /blog/projekat-apartmanske-zgrade/ | projekat apartmanske zgrade | not live |
