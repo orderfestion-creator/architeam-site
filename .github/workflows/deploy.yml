@@ -6,6 +6,9 @@ name: Deploy to Sprinthost
 # Server and login are the Sprinthost values below (repository Variables FTP_SERVER / FTP_USERNAME override them if ever needed).
 # Optional repository Variable FTP_SERVER_DIR (default: domains/architeam.me/public_html/)
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [main]
@@ -25,13 +28,17 @@ jobs:
       - name: Build blog and validate
         run: python3 _blog/build.py --check
 
-      - name: Fail if build changed committed files
+      - name: Commit validated generated blog pages
         run: |
-          if ! git diff --quiet; then
-            echo "::error::Generated files are out of date. Run python3 _blog/build.py and commit."
-            git --no-pager diff --stat
-            exit 1
+          set -euo pipefail
+          git add -A -- blog ru/blog en/blog sitemap-blog.xml
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Build verified article pages [skip ci]"
+            git push origin HEAD:main
           fi
+          git diff --exit-code
 
       - name: Upload to Sprinthost
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
