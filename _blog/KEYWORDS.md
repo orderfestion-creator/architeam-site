@@ -85,7 +85,7 @@ Format: **primary** — secondary → main service page · status
 8. **statički proračun kuće** — statički proračun objekta, proračun nosivosti konstrukcije → /staticki-proracun-konstrukcija/ · done 2026-11-14 /blog/staticki-proracun-kuce/
 9. **projekat nadogradnje kuće** — projektovanje nadogradnje, projekat dogradnje kuće → /rekonstrukcija-nadogradnja/ · done 2026-11-19 /blog/projekat-nadogradnje-kuce/
 10. **projekat apartmanske zgrade** angle: maximizing usable area within the plan — projekat stambene zgrade, projektovanje stambenih zgrada → /projekat-apartmanske-zgrade/ · done 2026-11-21 /blog/projekat-apartmanske-zgrade/
-11. **projekat nadstrešnice za auto** — projekat metalne nadstrešnice, projekat nadstrešnice za dva auta, crtež nadstrešnice, nacrt metalne nadstrešnice, proračun nadstrešnice → /projekat-nadstresnice/ · todo
+11. **projekat nadstrešnice za auto** — projekat metalne nadstrešnice, projekat nadstrešnice za dva auta, crtež nadstrešnice, nacrt metalne nadstrešnice, proračun nadstrešnice → /projekat-nadstresnice/ · done 2026-11-24 /blog/projekat-nadstresnice-za-auto/
 12. **snimak postojećeg stanja** angle: when you need it (sale, adaptation, legalisation, upis) — crteži postojećeg stanja, projekat postojećeg stanja, nacrt postojećeg objekta, dokumentacija za upis objekta → /elaborat-postojeceg-stanja/ · todo
 
 ### Wave 2 — house & villa design in depth
@@ -158,7 +158,7 @@ Audience: foreigners who buy land or property in Montenegro. Research the natura
 RU
 1. **сколько стоит проект дома в Черногории** → /ru/proekt-chastnogo-doma/, /ru/ceny/ · done 2026-10-29 /ru/blog/skolko-stoit-proekt-doma-v-chernogorii/
 2. **разрешение на строительство в Черногории для иностранца** → /ru/razreshenie-na-stroitelstvo-chernogoriya/ · done 2026-11-10 /ru/blog/razreshenie-na-stroitelstvo-v-chernogorii-dlya-inostrantsa/
-3. **легализация дома в Черногории** → /ru/legalizaciya-doma-chernogoriya/ · todo
+3. **легализация дома в Черногории** → /ru/legalizaciya-doma-chernogoriya/ · done 2026-11-23 /ru/blog/legalizaciya-doma-v-chernogorii/
 4. **что проверить перед покупкой участка в Черногории** (UTU, план, индексы) → /ru/razreshenie-na-stroitelstvo-chernogoriya/ · todo
 5. **проект виллы с бассейном в Черногории** → /ru/proekt-villy-chernogoriya/ · todo
 6. **idejno rješenje и glavni projekat: что это и чем отличаются** → /ru/osnovnoj-proekt-glavni-projekat/ · todo
