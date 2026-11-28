@@ -21,4 +21,4 @@ The number of rows decides the next language (pattern ME, ME, RU, ME, ME, EN —
 | 14 | 2026-11-21 | ME | /blog/projekat-apartmanske-zgrade/ | projekat apartmanske zgrade | live |
 | 15 | 2026-11-23 | RU | /ru/blog/legalizaciya-doma-v-chernogorii/ | легализация дома в Черногории | live |
 | 16 | 2026-11-24 | ME | /blog/projekat-nadstresnice-za-auto/ | projekat nadstrešnice za auto | live |
-| 17 | 2026-11-28 | ME | /blog/snimak-postojeceg-stanja/ | snimak postojećeg stanja | not live |
+| 17 | 2026-11-28 | ME | /blog/snimak-postojeceg-stanja/ | snimak postojećeg stanja | live |
