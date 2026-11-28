@@ -86,7 +86,7 @@ Format: **primary** — secondary → main service page · status
 9. **projekat nadogradnje kuće** — projektovanje nadogradnje, projekat dogradnje kuće → /rekonstrukcija-nadogradnja/ · done 2026-11-19 /blog/projekat-nadogradnje-kuce/
 10. **projekat apartmanske zgrade** angle: maximizing usable area within the plan — projekat stambene zgrade, projektovanje stambenih zgrada → /projekat-apartmanske-zgrade/ · done 2026-11-21 /blog/projekat-apartmanske-zgrade/
 11. **projekat nadstrešnice za auto** — projekat metalne nadstrešnice, projekat nadstrešnice za dva auta, crtež nadstrešnice, nacrt metalne nadstrešnice, proračun nadstrešnice → /projekat-nadstresnice/ · done 2026-11-24 /blog/projekat-nadstresnice-za-auto/
-12. **snimak postojećeg stanja** angle: when you need it (sale, adaptation, legalisation, upis) — crteži postojećeg stanja, projekat postojećeg stanja, nacrt postojećeg objekta, dokumentacija za upis objekta → /elaborat-postojeceg-stanja/ · todo
+12. **snimak postojećeg stanja** angle: when you need it (sale, adaptation, legalisation, upis) — crteži postojećeg stanja, projekat postojećeg stanja, nacrt postojećeg objekta, dokumentacija za upis objekta → /elaborat-postojeceg-stanja/ · done 2026-11-28 /blog/snimak-postojeceg-stanja/
 
 ### Wave 2 — house & villa design in depth
 13. **projekat prizemne kuće** — projekat male kuće, projekat vikendice → /projekat-kuce/ · todo
